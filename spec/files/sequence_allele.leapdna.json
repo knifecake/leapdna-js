@@ -1,0 +1,10 @@
+{
+    "type": "seq_allele",
+    "count": 10,
+    "frequency": 0.23,
+    "sequence": {
+        "type": "sequence",
+        "name": "D18S123 [CE11.2]",
+        "repeating_region_bracketed": "[ATTG]11AT"
+    }
+}

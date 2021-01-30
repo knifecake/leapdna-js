@@ -1,0 +1,43 @@
+{
+    "type": "study",
+    "metadata": {},
+    "loci": [
+        {
+            "type": "locus",
+            "name": "Locus 1",
+            "alleles":  [
+                {
+                    "type": "allele",
+                    "name": "A1",
+                    "frequency": 0.10,
+                    "count": 10
+                },
+                {
+                    "type": "allele",
+                    "name": "A2",
+                    "frequency": 0.90,
+                    "count": 90
+                }
+            ]
+        },
+        {
+            "type": "locus",
+            "name": "Locus 2",
+            "alleles":  [
+                {
+                    "type": "allele",
+                    "name": "A2",
+                    "frequency": 0.50,
+                    "count": 50
+                },
+                {
+                    "type": "allele",
+                    "name": "A3",
+                    "frequency": 0.50,
+                    "count": 50
+                }
+            ]
+        }
+                
+    ]
+}

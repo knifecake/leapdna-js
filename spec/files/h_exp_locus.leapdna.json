@@ -1,0 +1,11 @@
+{
+    "type": "locus",
+    "alleles": [
+        { "type": "allele", "name": "A1", "frequency": 0.5, "count": 10 },
+        { "type": "allele", "name": "A2", "frequency": 0.5, "count": 10 }
+    ],
+    "user": {
+        "h_exp": 0.5,
+        "sample_size": 20
+    }
+}

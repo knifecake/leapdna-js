@@ -1,0 +1,32 @@
+{
+  "name": "leapdna",
+  "version": "0.1.0",
+  "description": "A JavaScript implementation of the leapdna toolkit",
+  "author": "Elias Hernandis <elias@hernandis.me>",
+  "license": "MIT",
+  "homepage": "https://github.com/knifecake/leapdna-js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/knifecake/leapdna-js.git"
+  },
+  "main": "dist/leapdna.js",
+  "scripts": {
+    "rollup": "npx rollup -c .rollup.config.js",
+    "test": "yarn exec jasmine --config=spec/support/jasmine.json"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^2.1.0",
+    "@types/jasmine": "^3.6.3",
+    "@types/node": "^13.13.2",
+    "@types/papaparse": "^5.2.5",
+    "jasmine": "^3.6.4",
+    "nyc": "^15.1.0",
+    "rollup": "^1.29.0",
+    "ts-node": "^8.10.2",
+    "tslib": "^1.14.1",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "papaparse": "^5.2.0"
+  }
+}

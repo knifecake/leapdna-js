@@ -1,0 +1,14 @@
+{
+    "type": "sequence",
+    "name": "My sequence",
+    "refseq_name": "GRCh38.p12",
+    "refseq_start": "12345678901",
+    "refseq_end": "23456789012",
+    "repeat_motifs": ["ATTC", "ATTG"],
+    "repeating_region_seq": "ATTCATTCATTGATTGATTG",
+    "repeating_region_bracketed": "[ATTC]2[ATTG]3",
+    "flank3_seq": "ATCG",
+    "flank3_bracketed": "ATCG",
+    "flank5_seq": "GCTA",
+    "flank5_bracketed": "GCTA"
+}

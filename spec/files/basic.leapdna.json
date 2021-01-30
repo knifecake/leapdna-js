@@ -1,0 +1,12 @@
+{
+    "version": "1",
+    "type": "block",
+    "id": "my id",
+    "leapdna": {
+        "created_at": "20200430T12:00:00"
+    },
+    "user": {
+        "custom_number": 123,
+        "custom_string": "string"
+    }
+}

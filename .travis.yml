@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - 12
+cache: yarn
+scripts:
+  - npm install -g codecov
+  - nyc npm test
+after_success:
+  - "nyc report --reporter=text-lcov > coverage.lcov && codecov"
